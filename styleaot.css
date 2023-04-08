@@ -1,0 +1,310 @@
+ nav ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+ nav li{
+    margin-right: 10px;
+    font-weight: bold;
+    color:black;
+    font-family: "Grenze Gotisch";
+}
+ header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:center;
+    background-color: rgb(120, 28, 28);
+}
+ header div{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10px;
+}
+ header h2{
+    font-family: "Orbitron";
+    margin:15px;
+    font-size:20px;
+}
+ header a{
+    text-decoration: none;
+    color: black;
+}
+ header a:hover{
+    color:brown;
+}
+.section1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Frijole";
+    font-size: 40px;
+    text-align:center;
+    font-weight: bolder;
+    padding: 250px; 
+    background-image:url("im2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation-name: change;
+    animation-timing-function: 5s;
+    animation-duration: 30s;
+    animation-repeat:1;
+    margin-bottom:-20px;
+}
+.section1 button{
+    width:200px;
+    height:50px;
+    font-family: "Mate SC";
+    font-size:15px;
+    background-color: rgb(120, 28, 28);
+    border-radius: 7px;
+    margin-left:41%;
+    box-shadow: none;
+    border: none;
+    font-weight: 300px;
+}
+.section1 button:hover{
+    color: rgb(237, 237, 237);
+}
+.section1 p{
+    color: rgb(237, 237, 237);
+    text-shadow:-2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+  -2px -2px 0 #000;
+  margin-bottom: 40px;
+}
+@keyframes change{
+    0%{
+    background-image : url("im1.png");
+    }
+    75%{
+    background-image: url("im2.png");
+    }
+}
+footer{
+    background-color:rgb(120, 28, 28) ;
+    text-align: center;
+    font-family: "Grenze Gotisch";
+    padding: 10px;
+}
+.section2{
+    background-image: url(wallpaper2.png);
+    background-size: cover;
+    color: rgb(120, 28, 28);
+    font-weight: bolder;
+    margin-top:-30px;
+    margin-bottom:-20px;
+}
+.section2 h2{
+    font-family:"Orbitron" ;
+    font-size:30px;
+}
+.section2 p{
+    font-family:"Roboto Slab" ;
+    padding-bottom: 15px;
+}
+.section2 li{
+    list-style-type: none;
+    margin-right: 5px;
+}
+.summary{
+    color: rgb(184, 178, 178);
+    text-decoration-style: black solid;
+}
+.main3{
+    background-image: url("sec3.jpg");
+    margin-top:-43px;
+    margin-bottom:-20px;
+    background-size: cover;
+    padding-bottom:300px;
+}
+.main3 h2{
+    font-family: "Orbitron";
+    text-align:center;
+    font-size: 50px;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-color: rgb(120, 28, 28);
+   -webkit-text-stroke-width: 2px;
+   padding-top:10px;
+   margin-bottom:50px;
+}
+.main3  ul{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style-type: none;
+    align-items:center; 
+}
+.main3 ul li{
+    border-radius:5px;
+    border: 4px rgb(120, 28, 28)  solid;
+    padding:20px;
+    margin-right:20px;
+    text-align:center;
+    text-decoration: 1px underline;
+    font-family:"Orbitron" ;
+    padding: 40px;
+}
+.main3 a{
+    color:black;
+}
+.main3 a:hover{
+    color:rgb(255, 255, 255);
+}
+.main4{
+    background-image: url(wallpaper2.png);
+    text-shadow:-2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+  -2px -2px 0 #000;
+    color:rgb(120, 28, 28);
+    font-weight: bolder;
+    margin-top:-45px;
+    margin-bottom:-45px;
+    padding-bottom:60px;
+}
+.main4 h2{
+    font-family: "Orbitron";
+    text-align:center;
+    font-size: 50px;
+}
+.main4 p{
+    font-family: "Roboto Slab";
+    font-size:20px;
+   
+}
+.main4 p img{
+    border-radius:5px;
+}
+.main4 h3{
+    font-family: "Orbitron";
+}
+.main5{
+
+    background-image: url(wallpaper2.png);
+    margin-top:-50px;
+    margin-bottom:-50px;
+    color:rgb(120, 28, 28)  ;
+    text-shadow:-2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+  -2px -2px 0 #000;
+    font-weight: bolder;
+}
+.main5 h3{
+    font-family: "Orbitron";
+    text-align: center;
+    font-size:40px;
+}
+.main5 h4{
+    font-family: "Orbitron";
+}
+.main5 p{
+    
+    font-size:20px;
+    margin-bottom:30px;
+}
+.main5 ul{
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 30px;
+    align-items: center;
+    margin-right: 40px;
+}
+.main5 a h3{
+    font-family: "Orbitron";
+    text-align: center;
+    font-size:40px;
+}
+.main6 ul{
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+    align-items: center;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+.section1 p{
+    font-family: "Frijole";
+}
+main p{
+    font-family: "Roboto Slab";
+    color:rgb(120, 28, 28)  ;
+    text-shadow:-2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+  -2px -2px 0 #000;
+    font-weight: bolder;
+}
+.section2 h2{
+    color:rgb(120, 28, 28)  ;
+    text-shadow:-2px 2px 0 #000,
+    2px 2px 0 #000,
+   2px -2px 0 #000,
+  -2px -2px 0 #000;
+    font-weight: bolder;
+}
+.characters{
+    color: rgb(184, 178, 178);
+    text-decoration-style: black solid;
+}
+.display{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    column-gap: 50px;
+    margin-right:50px;
+}
+p{
+    text-indent: 20px;
+}
+.main4.a{
+    background-image: url(background.jpg);
+    background-size: cover;
+    animation-name: moving;
+    animation-duration: 200s;
+    animation-repeat: infinite;
+}
+@keyframes moving{
+ from{
+    background-position: center;
+ }
+ to{
+    background-position:-3000px 0px;
+ }
+}
+.display.a{
+   align-items: center;
+   margin:50px;
+}
+.display.a li{
+    margin-bottom:50px;
+}
+.display.a li img{
+    box-shadow: #000 5px 5px 15px;
+    height:500px ;
+    width:300px;
+}
+ul{
+    list-style-type: none;
+}
+.display.b li {
+    border: 2px rgb(120, 28, 28) solid;
+    box-sizing:border-box;
+    padding:40px;
+    width:auto;
+    text-align:center;
+    align-items:center;
+    margin:20px;
+}
+.box{
+    height:250px;
+    width:300px;
+}
